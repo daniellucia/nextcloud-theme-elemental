@@ -45,7 +45,11 @@
  	background-color: rgb(232, 232, 232);
  	border-right: 0px;
  }
-
+#app-navigation {
+	-webkit-box-shadow: 10px 2px 16px -10px rgba(0,0,0,0.49);
+-moz-box-shadow: 10px 2px 16px -10px rgba(0,0,0,0.49);
+box-shadow: 10px 2px 16px -10px rgba(0,0,0,0.49);
+}
  #app-settings-content, #app-settings-header {
  	border-right: 0px;
  }
