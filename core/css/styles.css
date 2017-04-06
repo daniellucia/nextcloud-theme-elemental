@@ -63,6 +63,9 @@ input[type="text"], input[type="password"], input[type="search"], input[type="nu
   cursor: text;
   font-family: inherit;
 }
+#searchresults {
+	min-height: 100%;
+}
 #settings {
   color: rgb(255, 255, 255)!important;
   cursor: pointer;
