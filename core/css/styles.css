@@ -26,7 +26,12 @@
  #body-public #header {
  	background-color: #1794d1!important;
  }
-
+#nextcloud {
+	display: none!important;
+}
+#header .header-appname-container {
+  left: 11px!important;
+}
  /* log in screen background color */
  /* gradient of the header color and a brighter shade */
  /* can also be a flat color or an image */
