@@ -66,19 +66,19 @@
 }
 
 #filestable tbody tr, table thead th {
-    background-color: #212121;
+    background-color: #ffffff;
 }
 
 #filestable tbody tr:hover, #filestable tbody tr:focus, #filestable tbody .name:focus, #filestable tbody tr:active, #filestable tbody tr.highlighted, #filestable tbody tr.highlighted .name:focus, #filestable tbody tr.selected, #filestable tbody tr.searchresult, table tr.mouseOver td, tbody tr:hover, tbody tr:focus, tbody tr:active {
-    background-color: #616161;
+    background-color: rgb(240, 240, 240);
 }
 
 tbody a, tbody td, tbody span {
-    color: #9e9e9e !important;
+    color: rgb(62, 62, 62) !important;
 }
 
 table th, table td, table.grid th, table.grid td {
-    border-bottom: 1px solid #424242;
+    border-bottom: 1px solid rgb(240, 240, 240);
     border-top: 0px !important;
 }
 
@@ -87,17 +87,17 @@ table th, table td, table.grid th, table.grid td {
 }
 
 .summary {
-	background-color: #212121;
+	background-color: #ffffff;
 	opacity: 1;
 	color: #616161;
 }
 
 #container, #controls, #app-content {
-	background: #212121;
+	background: #ffffff;
 }
 
 #content-wrapper {
-	background-color: #212121 !important;
+	background-color: #ffffff !important;
 }
 
 /* use logos from theme */
