@@ -51,11 +51,17 @@
  	border-right: 0px;
  }
 #app-navigation {
-	-webkit-box-shadow: 2px 0px 3px 0px rgba(0,0,0,0.2);
-	-moz-box-shadow: 2px 0px 3px 0px rgba(0,0,0,0.2);
-	box-shadow: 2px 0px 3px 0px rgba(0,0,0,0.2);
+	-webkit-box-shadow: 2px 0px 3px 0px rgba(0,0,0,0.15);
+	-moz-box-shadow: 2px 0px 3px 0px rgba(0,0,0,0.15);
+	box-shadow: 2px 0px 3px 0px rgba(0,0,0,0.15);
 	position: relative;
     z-index: 51;
+}
+input[type="text"], input[type="password"], input[type="search"], input[type="number"], input[type="email"], input[type="tel"], input[type="url"], input[type="time"], textarea {
+  background: rgb(0, 0, 0, 0.5) none repeat scroll 0 0!important;
+  color: rgb(85, 85, 85);
+  cursor: text;
+  font-family: inherit;
 }
 #settings {
   color: rgb(255, 255, 255)!important;
