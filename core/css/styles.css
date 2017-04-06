@@ -19,98 +19,76 @@
    color: rgb(0, 0, 0);
    font-family: "Roboto";
  }
-/* header color */
-/* this is the main brand color */
-#body-user #header,
-#body-settings #header,
-#body-public #header {
-	background-color: #1794d1;
-}
+ /* header color */
+ /* this is the main brand color */
+ #body-user #header,
+ #body-settings #header,
+ #body-public #header {
+ 	background-color: #1794d1!important;
+ }
 
-/* log in screen background color */
-/* gradient of the header color and a brighter shade */
-/* can also be a flat color or an image */
-#body-login {
-	background: #1794d1; /* Old browsers */
-	background: -moz-linear-gradient(top, #37b4f1 0%, #1794d1 100%); /* FF3.6+ */
-	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#37b4f1), color-stop(100%,#1794d1)); /* Chrome,Safari4+ */
-	background: -webkit-linear-gradient(top, #37b4f1 0%,#1794d1 100%); /* Chrome10+,Safari5.1+ */
-	background: -o-linear-gradient(top, #37b4f1 0%,#1794d1 100%); /* Opera11.10+ */
-	background: -ms-linear-gradient(top, #37b4f1 0%,#1794d1 100%); /* IE10+ */
-	background: linear-gradient(top, #37b4f1 0%,#1794d1 100%); /* W3C */
-	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#37b4f1', endColorstr='#1794d1',GradientType=0 ); /* IE6-9 */
-}
+ /* log in screen background color */
+ /* gradient of the header color and a brighter shade */
+ /* can also be a flat color or an image */
+ #body-login {
+ 	background: #1794d1; /* Old browsers */
+ 	background: -moz-linear-gradient(top, #37b4f1 0%, #1794d1 100%); /* FF3.6+ */
+ 	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#37b4f1), color-stop(100%,#1794d1)); /* Chrome,Safari4+ */
+ 	background: -webkit-linear-gradient(top, #37b4f1 0%,#1794d1 100%); /* Chrome10+,Safari5.1+ */
+ 	background: -o-linear-gradient(top, #37b4f1 0%,#1794d1 100%); /* Opera11.10+ */
+ 	background: -ms-linear-gradient(top, #37b4f1 0%,#1794d1 100%); /* IE10+ */
+ 	background: linear-gradient(top, #37b4f1 0%,#1794d1 100%); /* W3C */
+ 	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#37b4f1', endColorstr='#1794d1',GradientType=0 ); /* IE6-9 */
+ }
 
-#app-navigation, .nav-trashbin, .settings-button, .settings-button:hover, .settings-button:focus {
-	background-color: rgb(224, 224, 224);
-	border-right: 0px;
-}
+ #app-navigation, .nav-trashbin, .settings-button, .settings-button:hover, .settings-button:focus {
+ 	background-color: rgb(232, 232, 232);
+ 	border-right: 0px;
+ }
 
-.settings-button:hover, .settings-button:focus {
-	color: #000000;
-}
+ #app-settings-content, #app-settings-header {
+ 	border-right: 0px;
+ }
 
-#app-navigation li > a, input[type="submit"], input[type="button"], button, .button, #quota, select, .pager li a {
-	color: rgb(71, 71, 71);
-	opacity: 1;
-}
+ #controls {
+ 	background-color: rgba(250, 250, 250, .95);
+ }
 
-#app-navigation .active, #app-navigation .active a, #app-navigation li:hover > a, #app-navigation li:focus > a, #app-navigation a:focus, #app-navigation .selected, #app-navigation .selected a {
-	color: #000000;
-	opacity: 1;
-}
+ #filestable tbody tr, table thead th {
+ 	background-color: #fafafa;
+ }
 
-#app-settings-content, #app-settings-header {
-	border-right: 0px;
-}
+ #filestable tbody tr:hover, #filestable tbody tr:focus, #filestable tbody .name:focus, #filestable tbody tr:active, #filestable tbody tr.highlighted, #filestable tbody tr.highlighted .name:focus, #filestable tbody tr.selected, #filestable tbody tr.searchresult, table tr.mouseOver td, tbody tr:hover, tbody tr:focus, tbody tr:active {
+ 	background-color: #eee;
+ }
 
-#controls {
-	background-color: rgba(250, 250, 250, .95);
-}
+ table th, table td, table.grid th, table.grid td {
+ 	border-bottom: 1px solid #f5f5f5;
+ 	border-top: 0px !important;
+ }
 
-#filestable tbody tr, table thead th {
-    background-color: #ffffff;
-}
+ .summary {
+ 	background-color: #fafafa;
+ 	opacity: 1;
+ 	color: #b2b2b2;
+ }
 
-#filestable tbody tr:hover, #filestable tbody tr:focus, #filestable tbody .name:focus, #filestable tbody tr:active, #filestable tbody tr.highlighted, #filestable tbody tr.highlighted .name:focus, #filestable tbody tr.selected, #filestable tbody tr.searchresult, table tr.mouseOver td, tbody tr:hover, tbody tr:focus, tbody tr:active {
-    background-color: rgb(240, 240, 240);
-}
+ #container, #controls, #app-content {
+ 	background: #fafafa;
+ }
 
-tbody a, tbody td, tbody span {
-    color: rgb(62, 62, 62) !important;
-}
+ #content-wrapper {
+ 	background-color: #fafafa !important;
+ }
 
-table th, table td, table.grid th, table.grid td {
-    border-bottom: 1px solid rgb(240, 240, 240);
-    border-top: 0px !important;
-}
-
-::-webkit-scrollbar-thumb {
-	background: #757575;
-}
-
-.summary {
-	background-color: #ffffff;
-	opacity: 1;
-	color: #616161;
-}
-
-#container, #controls, #app-content {
-	background: #ffffff;
-}
-
-#content-wrapper {
-	background-color: #ffffff !important;
-}
-
-/* use logos from theme */
-#header .logo {
-	background-image: url('../img/logo.svg');
-	width: 250px;
-	height: 121px;
-}
-#header .logo-icon {
-	background-image: url('../img/logo-icon.svg');
-	width: 62px;
-	height: 34px;
-}
+ /* use logos from theme */
+ #header .logo {
+ 	background-image: url('../img/logo.svg');
+ 	width: 250px;
+ 	height: 121px;
+ }
+ #header .logo-icon {
+ 	background-image: url('../img/logo-icon.svg');
+ 	width: 62px;
+ 	height: 34px;
+ }
