@@ -52,6 +52,10 @@
 	position: relative;
     z-index: 51;
 }
+#settings {
+  color: rgb(255, 255, 255)!important;
+  cursor: pointer;
+}
  #app-settings-content, #app-settings-header {
  	border-right: 0px;
  }
